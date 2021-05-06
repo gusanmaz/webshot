@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"strings"
-	"webshot/webshotapi"
+	"github.com/gusanmaz/webshot/webshotapi"
 )
 
 const(
