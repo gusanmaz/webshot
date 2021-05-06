@@ -5,7 +5,9 @@ It is based on [Rod](https://github.com/go-rod/rod).
 
 ## Installation
 
-`go install github.com/gusanmaz/webshot/cmd`
+`go get github.com/gusanmaz/webshot`
+
+`go install $GOPATH/src/github.com/gusanmaz/webshot/webshot.go`
 
 ## Usage
 
@@ -37,7 +39,7 @@ For infinite scroll webpages you need to specify screenshot height and use infin
 `
 You may also modify default values of stepheight and steptime flags. WebShot scrolls infinite page downwards stepheight pixels every steptime milliseconds.
 
-`webshot  -steptime 300 -stepheight 100 -url https://www.flickr.com/search/?text=winter -height 50000 -type image -o winter.png`
+`webshot  -infinite true -steptime 300 -stepheight 100 -url https://www.flickr.com/search/?text=winter -height 50000 -type image -output winter.png`
 
 ## Author
 
