@@ -7,7 +7,9 @@ It is based on [Rod](https://github.com/go-rod/rod).
 
 `go get github.com/gusanmaz/webshot`
 
-`go install $GOPATH/src/github.com/gusanmaz/webshot/webshot.go`
+`cd $GOPATH/src/github.com/gusanmaz/webshot`
+
+`go install cmd/webshot.go`
 
 ## Usage
 
