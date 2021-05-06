@@ -5,7 +5,9 @@ It is based on [Rod](https://github.com/go-rod/rod).
 
 ## Installation
 
-`go install github.com/gusanmaz/webshot/cmd`
+`go get github.com/gusanmaz/webshot`
+
+`go install $GOPATH/src/github.com/gusanmaz/webshot/webshot.go`
 
 ## Usage
 
